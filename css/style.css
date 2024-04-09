@@ -27,13 +27,13 @@ body{
 }
 
 .wrapper-menu{
-    padding: 0.4rem 8rem 0.6rem 8rem;
+    padding: 0.6rem 10.5rem;
 }
 
 .menu{
     display: flex; 
     /* padding: 0.6rem 4.5rem; */
-    justify-content: initial;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -49,8 +49,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
+    font-size: 14px;
+    padding-top: 1rem;
 }
+
+
 
 /* .links-paginas{
     display: flex;
@@ -59,8 +63,21 @@ body{
 
 } */
 
+.disney{
+    max-width: 30%;
+    text-align: end;
+}
+
+.disney img{
+    width: 90%;
+}
+
 .logo a img{
-    width: 50%;
+    width: 70%;
+}
+
+.logo{
+    max-width: 180px;
 }
 
 .nav-menu .cep{
@@ -69,10 +86,12 @@ body{
 
 .cep p{
     display: grid;
+    font-size: 14px;
 }
 
 .nav-menu .cep span{
-   font-weight: bolder;
+   font-weight: 600;
+
 }
 
 
@@ -94,6 +113,7 @@ body{
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     width: 35em;
     border-radius: 4px;
+    margin-right: 5%;
 }
 
 .busca input{
