@@ -1,131 +1,65 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("./header.css");
+@import url("./cards.css");
 
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-a{
-    text-decoration: none;
-    color: #000;
+a {
+  text-decoration: none;
+  color: #000;
 }
 
-ul li{
-    list-style: none;
+ul li {
+  list-style: none;
 }
 
-body{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
-
-/* HEADER */
-
-.container-menu{
-    background-color: #FFE600;
-}
-
-.wrapper-menu{
-    padding: 0.6rem 10.5rem;
-}
-
-.menu{
-    display: flex; 
-    /* padding: 0.6rem 4.5rem; */
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-menu{
-    padding-top: 0.4rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-.links-menu, .links-paginas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    font-size: 14px;
-    padding-top: 1rem;
-}
-
-
-
-/* .links-paginas{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-} */
-
-.disney{
-    max-width: 30%;
-    text-align: end;
-}
-
-.disney img{
-    width: 90%;
-}
-
-.logo a img{
-    width: 70%;
-}
-
-.logo{
-    max-width: 180px;
-}
-
-.nav-menu .cep{
-    display: flex;
-}
-
-.cep p{
-    display: grid;
-    font-size: 14px;
-}
-
-.nav-menu .cep span{
-   font-weight: 600;
-
-}
-
-
-
-
-
-
-
-
-
-/*pesquisa*/
-
-.busca{
-    background-color: #ffff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 0.4rem;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    width: 35em;
-    border-radius: 4px;
-    margin-right: 5%;
-}
-
-.busca input{
-    border: none;
-    background-color: transparent;
-    outline: none;
-    padding: 0.8rem;
-    width: 100%;
-}
-
 
 /* banner */
-.banner img{
-    width: 100%;
+#hero img {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: initial;
+  margin: 0;
+  background-color: #ffff;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.swiper-button-prev {
+  border-bottom-right-radius: 64px;
+  border-top-right-radius: 64px;
+}
+
+.swiper-button-next {
+  border-bottom-left-radius: 64px;
+  border-top-left-radius: 64px;
+}
+
+.swiper-pagination {
+  position: initial;
+  margin: 4rem 0;
+}
+
+#cards {
+  height: 50vh;
+  display: block;
+  unicode-bidi: isolate;
+  z-index: 4;
+}
+
+.swiper-slide:hover{
+    display: block;
 }

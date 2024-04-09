@@ -1,0 +1,24 @@
+.swiper-button-next, .swiper-button-prev {
+  color: #3483fa;
+  width: 4%;
+  height: 16%;
+  top: 40%;
+}
+
+.swiper-button-prev{
+  left: 0;
+  right: auto;
+}
+
+.swiper-button-next{
+  right: 0;
+  left: auto;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after{
+  font-size: 14px;
+}
+
+
+
+

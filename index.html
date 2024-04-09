@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/banner.css">
     <title>Mercado Livre</title>
 </head>
 <body>
@@ -26,7 +28,7 @@
         
         <nav class="nav-menu">
             <div class="cep">
-                <img src="./img/Home Address.svg" alt="Icon cep">
+                <img src="./img/map-pin.svg" alt="Icon cep">
                 <p>Informe seu <span>CEP</span></p>
             </div>
             
@@ -45,7 +47,7 @@
                 <a href=""><li>Crie a sua conta</li></a>
                 <a href=""><li>Entre</li></a>
                 <a href=""><li>Compras</li></a>
-                <a href=""><li><img src="./img/cart.png" alt=""></li></a>
+                <a href=""><li><img src="./img/cart.svg" alt=""></li></a>
             </ul>
         </nav>
         
@@ -53,11 +55,58 @@
     </header>
     
     <main>
-        <section class="hero">
-            <div class="banner">
-                <img src="./img/img.webp" alt="">
+        <section id="hero">
+                <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <a href="" class="swiper-slide"><img src="./img/img.webp" alt=""></a>
+                <a href="" class="swiper-slide"><img src="./img/img2.webp" alt=""></a>
+                <a href="" class="swiper-slide"><img src="./img/img3.webp" alt=""></a>
+                <a href="" class="swiper-slide"><img src="./img/img4.webp" alt=""></a>
+                <a href="" class="swiper-slide"><img src="./img/img5.webp" alt=""></a>
+               
+                </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+
+        <section id="cards">
+            <div class="container-cards">
+                
             </div>
         </section>
     </main>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    const swiper = new Swiper('.swiper', {
+    
+      spaceBetwenn: 0,
+      slidesPerView: 1,
+
+      /*effect: 'coverflow',
+      coverflowEffect: {
+        rotate: 30,
+        slideShadows: false,
+      },*/
+
+      autoplay: {
+        delay: 5000,
+      },
+
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      }
+     });
+  </script>
 </body>
 </html>
