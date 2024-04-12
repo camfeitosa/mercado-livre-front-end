@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("./header.css");
 @import url("./cards.css");
+@import url("./mais-vendidos.css");
+@import url("./mercadoPlay.css");
+@import url("./rodape.css");
 
 * {
   box-sizing: border-box;
@@ -13,13 +16,13 @@ a {
   color: #000;
 }
 
-ul li {
-  list-style: none;
-}
-
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+}
+
+main{
+  background-color: #ebebeb;
 }
 
 /* banner */
@@ -50,7 +53,7 @@ body {
 
 .swiper-pagination {
   position: initial;
-  margin: 4rem 0;
+  margin: 7rem 0;
 }
 
 #cards {

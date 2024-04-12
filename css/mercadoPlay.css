@@ -1,0 +1,63 @@
+.mercado-play {
+  padding: 1rem 10.5rem;
+  /* background-color: red; */
+}
+
+.container-video {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  background-size: cover;
+  border-radius: 6px;
+  background-image: url("../img/card-video.webp");
+}
+
+.informacoes,
+.video {
+  width: 50%;
+  color: #fff;
+  padding: 2rem;
+}
+
+.video iframe {
+  padding: 2rem;
+}
+
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  height: auto;
+}
+
+.img-video {
+  width: 22%;
+}
+
+.informacoes img {
+  width: 100%;
+}
+
+.informacoes a {
+  border-color: rgba(0, 0, 0, 0);
+  height: 32px;
+  width: 40%;
+  padding: 9px 12px 7px;
+  border-radius: 5px;
+  gap: 10px;
+  font-weight: 500;
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.informacoes h2 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.informacoes span {
+  font-weight: 700;
+}

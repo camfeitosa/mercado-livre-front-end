@@ -19,6 +19,24 @@
   font-size: 14px;
 }
 
+.divisor{
+  position: relative;  /* colocar elemento no html como container de todos os elementos e add Relative */ 
+  display: block;
+  unicode-bidi: isolate;
+}
 
+.gradient{
+  background: linear-gradient(180deg, transparent, #ebebeb);
+  bottom: 0;
+  position: absolute; /* elemento filho do .divisor com absolute*/
+  height: 30%;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+#hero{
+  position: relative;
+}
 
 
