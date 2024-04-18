@@ -1,5 +1,6 @@
-#mais-vendidos{
-  padding: 1rem 10.5rem;
+#mais-vendidos, 
+#container-smartphone{
+  padding: 2rem 10.5rem;
   height: auto;
 }
 
@@ -9,19 +10,21 @@
   align-items: center;
 
   width: 100%;
-  height: 52vh;
-
-  /* margin-top: 1rem; */
-  /* padding: 20px; */
+  height: auto;
 }
 
-.oferta-principal, .oferta-dia{
+.oferta-principal, .oferta-dia, .oferta-cel{
   background-color: #fff;
   box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
   padding: 1rem;
-  margin: 0 0.5rem;
+  /* margin: 0 0.5rem; */
   height: 100%;
   border-radius: 6px;
+}
+
+.oferta-dia, .oferta-cel{
+  display: flex;
+  gap: 1.5rem;
 }
 
 .oferta-principal{
@@ -29,6 +32,119 @@
 }
 
 .oferta-dia{
-  width: 70%;
+  width: 68%;
 }
+
+.oferta-cel{
+  width: 100%;
+}
+
+.card-celular{
+  width: 100%;
+}
+
+.card-principal .cards-secundario{
+  display: flex;
+  flex-direction: column;
+  align-items: initial;
+  justify-content: space-between;
+}
+
+.card-principal h2{
+  font-weight: 600;
+}
+
+.img-oferta{
+  width: 100%;
+  text-align: center;
+}
+
+.img-oferta img{
+  width: 90%;
+  padding: 1rem 3rem;
+}
+
+.info-card{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.before{
+  color: rgba(0, 0, 0, .55);
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.precos h3{
+  align-items: baseline;
+  display: flex;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 32px;
+}
+
+.preco-off{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.preco-off span{
+  font-weight: 500;
+  color: #00a650;
+}
+
+.precos p{
+  margin-top: 0.2rem;
+}
+
+/* card secundario */
+
+.cards-secundario{
+  /* background-color: red; */
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards-secundario .precos h3{
+  align-items: baseline;
+  display: flex;
+  font-weight: 500;
+  line-height: 1.25;
+  font-size: 24px;
+}
+
+.oferta-dia h2{
+  font-weight: 600;
+  display: block;
+}
+
+.cards-secundario .img-oferta{
+  width: 100%;
+  text-align: center;
+}
+
+.cards-secundario .img-oferta img{
+  width: 100%;
+  padding: 0;
+  /* padding: 1rem 3rem; */
+}
+
+.cards-secundario .precos p{
+  font-size: 14px;
+}
+
+.cards-secundario .titulo a{
+  font-size: 14px;
+  margin-top: 1rem;
+  max-width: 100%;
+}
+
+
+
 
