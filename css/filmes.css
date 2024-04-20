@@ -1,0 +1,127 @@
+#filmes {
+  padding: 2rem 10.5rem;
+  height: auto;
+}
+
+.container-filmes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+  padding: 1rem;
+  /* height: 450px; */
+  border-radius: 6px;
+  width: 100%;
+}
+
+.filmes-duo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.wrapper-conteudo {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 1rem;
+}
+
+.wrapper-conteudo img {
+  border-radius: 10px;
+}
+
+.wrapper-filme{
+  width: 100%;
+}
+
+.wrapper-conteudo h3 {
+  color: #fff;
+  font-weight: 700;
+  padding: 0 1rem;
+}
+
+.titulo-filmes h2{
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.filme1 {
+  border-radius: 6px;
+  display: flex;
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+
+  align-items: end;
+  
+  height: auto;
+  background-image: url("../img/filme1.jpg");
+  background-size: cover;
+  width: 100%;
+}
+
+.filme2 {
+  border-radius: 6px;
+  display: flex;
+  height: 250px;
+  overflow: hidden;
+  justify-content: initial;
+  align-items: end;
+  background-image: url("../img/filme2.png");
+  background-size: cover;
+  width: 100%;
+}
+
+.logo-card{
+  width: 15%;
+}
+
+/* .wrapper-filmes { */
+  /* align-items: center;
+    bottom: 0;
+    box-sizing: border-box;
+    display: flex;
+    left: 0;
+    padding: 16px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+     */
+
+  /* background: linear-gradient(
+    0deg,
+    rgb(8, 19, 48) 0%,
+    rgba(8, 19, 48, 0.0001) 100%
+  );
+} */
+
+.meli p{
+  color: #ffff;
+  padding-top: 0.3rem;
+}
+
+.meli-p{
+  padding: 2rem;
+}
+
+/* @media screen and (max-width: 1000px) {
+  #filmes, #mais-vendidos, 
+  #container-smartphone, .mercado-play{
+    padding: 0;
+  }
+  .mercado-play iframe{
+    width: 20px;
+  }
+
+
+  .oferta-cel{
+    flex-direction: column;
+    max-width: fit-content;
+    gap: 3rem;
+  }
+} */

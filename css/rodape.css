@@ -1,5 +1,40 @@
 .rodape{
-  height: 20vh;
+  gap: 1rem;
   background-color: #fff;
   margin-top: 2rem;
+  padding: 2rem 10.5rem;
+  height: auto;
+  border-top: 1px solid #e6e6e6;
+}
+
+.container-footer nav ul{
+  display: inline-flex;
+  gap: 1.5rem;
+}
+
+.container-footer{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container-footer small{
+  font-size: 12px;
+    display: inline-block;
+    color: #999;
+    vertical-align: initial;
+    width: auto;
+    line-height: initial;
+    margin: 0;
+    padding-bottom: 2px;
+}
+
+.container-footer nav ul li{
+  color: #333;
+  background-color: #fff;
+  font-family: "Proxima Nova", -apple-system, Roboto, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1;
+  overflow: hidden;
 }
